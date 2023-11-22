@@ -1,0 +1,1 @@
+Total Connection Time MQTT QOS2: 0.02925277 seconds
