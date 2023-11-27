@@ -1,6 +1,6 @@
 # MQTT Simulation
 
-This repository contains Python scripts for simulating different versions of MQTT communication that is QOS0,QOS1,QOS2 . The simulation includes MQTT Subscriber,Publisher & Broker.
+This repository contains Python scripts for simulating different versions of MQTT communication that is QOS0 , QOS1, QOS2 . The simulation includes MQTT Subscriber,Publisher & Broker.
 It also contains test scripts which help in collecting data for analysis purpose.
 For displaying the Results Graphs have been made for each QOS versions which can be seen in there respective  QOS folders
 
