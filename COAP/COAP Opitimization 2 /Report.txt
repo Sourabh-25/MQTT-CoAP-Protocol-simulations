@@ -1,9 +1,0 @@
-CoAP Optimization Report
-CoAP Client Message Compression:
- Implementation:
-  CoAP message compression is enabled in the client before making requests.
-  Compressed messages reduce payload size, saving energy during data transmission.
- Scenarios for Benefit:
-  Networks with limited bandwidth where reducing payload size is crucial.
-  Environments with high data transfer costs, such as cellular networks.
-  Battery-powered devices where minimizing data transmission directly impacts energy consumption.
