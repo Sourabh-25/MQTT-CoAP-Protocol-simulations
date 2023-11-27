@@ -6,23 +6,20 @@ several other approaches were discussed.
 ## MQTT : MQTT (Message Queuing Telemetry Transport) 
 - It is a lightweight messaging protocol designed for low-bandwidth, high-latency, or unreliable networks.
 - It operates on a publish-subscribe model, where clients communicate through a broker.
-**Key features** 
-- Include Quality of Service (QoS) levels (0, 1, 2) for message delivery assurance, a
-simple header structure, and support for last will and testament.
--It uses TCP/IP or other transport protocols and is widely used in IoT (Internet of Things) and real-time
-communication applications due to its efficiency and reliability.
-**MQTT (Message Queuing Telemetry Transport)**
--Provides three Quality of Service (QoS) levels:
--**1. QoS 0(At most once):**
-  - Messages are delivered with no confirmation. This leveloffers the least reliability, as there is no acknowledgment of message receipt.
--**2.QoS 1 (At least once):**
-  - Messages are delivered at least once, and acknowledgment is requested.
-  - If acknowledgment isn't received, the message is resent, ensuring delivery but possibly resulting in duplicates.
--**3. QoS 2 (Exactly once):**
+  **Key features**
+  - Include Quality of Service (QoS) levels (0, 1, 2) for message delivery assurance, a nsimple header structure, and support for last will and testament.
+  - It uses TCP/IP or other transport protocols and is widely used in IoT (Internet of Things) and real-time communication applications due to its efficiency and reliability.
+  - MQTT (Message Queuing Telemetry Transport) Provides three Quality of Service (QoS) levels:
+    **1. QoS 0(At most once):**
+    -Messages are delivered with no confirmation. This leveloffers the least reliability, as there is no acknowledgment of message receipt.
+    **2.QoS 1 (At least once):**
+    - Messages are delivered at least once, and acknowledgment is requested.
+    - If acknowledgment isn't received, the message is resent, ensuring delivery but possibly resulting in duplicates.
+    **3. QoS 2 (Exactly once):**
     - Messages are delivered exactly once through a four-step handshake process, ensuring no duplicates and guaranteeing message delivery.
     - QoS 2 provides the highest level of reliability but involves more overhead.
-**4 The different MQTT QoS versions are compared here :**
-   -https://1drv.ms/w/s!AhlNMIrAhB6ngxoqF9Pf6M-VPpDO?e=ChpRL4
+    **4 The different MQTT QoS versions are compared here :**
+      -https://1drv.ms/w/s!AhlNMIrAhB6ngxoqF9Pf6M-VPpDO?e=ChpRL4
 ## CoAP : CoAP (Constrained Application Protocol)
 -It is s a lightweight, Restful communication protocol designed for resource-constrained devices and low-power,lossy networks. 
 -Operating over UDP, CoAP enables efficient data exchange and interaction between devices in the Internet of Things (IoT).
