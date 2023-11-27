@@ -44,4 +44,6 @@ This repository contains Python scripts for simulating MQTT QOS1 for a Publisher
      - results_20.txt
      - message_count.png
 ![response_times_plot](https://github.com/jay-3101/CSN-341-Project_Group10/assets/114606348/7dd2c6dd-d566-4039-8c9c-473b05f1c238)
+![response_times_message_number_10_bytes_darkblue_darkorange](https://github.com/jay-3101/CSN-341-Project_Group10/assets/114606348/e87932bf-2cc1-4e94-b17f-4fa2471ad1f0)
+![message_count](https://github.com/jay-3101/CSN-341-Project_Group10/assets/114606348/4eb9b416-98ae-448f-8744-0ccbc39a8247)
 
