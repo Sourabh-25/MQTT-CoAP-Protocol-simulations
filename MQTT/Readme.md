@@ -18,4 +18,4 @@ Results are stored in form of txt and csv formats which are further used to make
 - Ensure that dependencies are installed correctly
 - Make sure that Topic Subscribed by Subscriber is same as Published by Publisher
 
-Feel free to explore and modify the scripts based on your specific use case and requirements. For any questions or issues, please refer to the provided references or open an issue in the repository.
+
