@@ -12,7 +12,7 @@ server_port = 8001
 # Define test scenarios
 message_sizes = [10, 20, 40, 80, 160]  # Varying message sizes in bytes
 frequencies = [5]  # Varying frequencies in messages per second
-quantities = 25  # Fixed quantity of messages to be Sent
+quantities = 25  # Fixed Quantity of messages to be Sent
 
 
 def send_request(message):
